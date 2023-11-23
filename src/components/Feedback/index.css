@@ -1,0 +1,48 @@
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  width: 60%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+.title {
+  color: #0f172a;
+  font-family: 'Roboto';
+}
+.emojis-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.list {
+  list-style-type: none;
+  cursor: pointer;
+}
+.img {
+  width: 60px;
+  height: 60px;
+}
+.list-name {
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.btn {
+  border-width: 0;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.description {
+  font-family: 'Roboto';
+  color: #1e293b;
+}
